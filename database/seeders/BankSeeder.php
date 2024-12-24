@@ -15,136 +15,136 @@ class BankSeeder extends Seeder
     public function run()
     {
         Bank::create([
-            'name'          => 'BCA',
-            'logo'          => 'bca.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'BCA',
+            'logo' => 'bca.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'BNI',
-            'logo'          => 'bni.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'JAGO',
+            'logo' => 'jago.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'BRI',
-            'logo'          => 'bri.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'BRI',
+            'logo' => 'bri.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Bank Mandiri',
-            'logo'          => 'mandiri.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Bank Mandiri',
+            'logo' => 'mandiri.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'BSI',
-            'logo'          => 'bsi.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'BSI',
+            'logo' => 'bsi.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Jenius',
-            'logo'          => 'jenius.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Jenius',
+            'logo' => 'jenius.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Jago',
-            'logo'          => 'jago.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Jago',
+            'logo' => 'jago.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'CIMB Niaga',
-            'logo'          => 'cimb.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'CIMB Niaga',
+            'logo' => 'cimb.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'OCBC NISP',
-            'logo'          => 'ocbc.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'OCBC NISP',
+            'logo' => 'ocbc.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'HSBC',
-            'logo'          => 'hsbc.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'HSBC',
+            'logo' => 'hsbc.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Panin Bank',
-            'logo'          => 'panin.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Panin Bank',
+            'logo' => 'panin.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Bank Permata',
-            'logo'          => 'permata.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Bank Permata',
+            'logo' => 'permata.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'DBS',
-            'logo'          => 'dbs.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'DBS',
+            'logo' => 'dbs.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Bank BJB',
-            'logo'          => 'bjb.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Bank BJB',
+            'logo' => 'bjb.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Bank Bukopin',
-            'logo'          => 'bukopin.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Bank Bukopin',
+            'logo' => 'bukopin.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Bank Mega',
-            'logo'          => 'mega.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Bank Mega',
+            'logo' => 'mega.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Gopay',
-            'logo'          => 'gopay.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Gopay',
+            'logo' => 'gopay.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'OVO',
-            'logo'          => 'ovo.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'OVO',
+            'logo' => 'ovo.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bank::create([
-            'name'          => 'Link aja',
-            'logo'          => 'linkaja.png',
-            'created_at'    => now(),
-            'updated_at'    => now()
+            'name' => 'Link aja',
+            'logo' => 'linkaja.png',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
     }
 }

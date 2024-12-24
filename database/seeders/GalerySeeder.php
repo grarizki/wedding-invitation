@@ -16,13 +16,13 @@ class GalerySeeder extends Seeder
     {
         Galery::create([
             'wedding_id'        => 1,
-            'gallery1'          => 'gallery1.jpeg',
-            'gallery2'          => 'gallery2.jpeg',
-            'gallery3'          => 'gallery3.jpeg',
-            'gallery4'          => 'gallery4.jpeg',
-            'gallery5'          => 'gallery5.jpeg',
-            'gallery6'          => 'gallery6.jpeg',
-            'video'             => 'https://www.youtube.com/embed/syMFHd5Gxxk',
+            'gallery1'          => '',
+            'gallery2'          => '',
+            'gallery3'          => '',
+            'gallery4'          => '',
+            'gallery5'          => '',
+            'gallery6'          => '',
+            'video'             => '',
             'created_at'        => now(),
             'updated_at'        => now()
         ]);

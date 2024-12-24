@@ -1,14 +1,5 @@
 # Installation
 
-## Setup this repository first
-
-Usage
-
-```bash
-git clone https://github.com/danixsofyan/wedding-invitation
-cd wedding-invitation
-```
-
 ## Setup Laravel Packages and Migrations
 
 ### Make sure you do this before setup on bash
@@ -32,22 +23,14 @@ php artisan storage:link
 
 ### landing page with guest name
 
-http://wedding-invitation.test/?to=Dani+Sofyan
-
 ### login
 
 ```bash
-http://wedding-invitation.test/admin
-E : admin@codelogy.dev
-P : 123qweasd
+
 ```
 
 ### DEMO
 
-http://wedding.codelogy.dev/?to=Dani+Sofyan
-
 ```bash
-http://wedding.codelogy.dev/admin
-E : admin@codelogy.dev
-P : 123qweasd
+
 ```

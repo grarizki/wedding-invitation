@@ -15,35 +15,35 @@ class BrideSeeder extends Seeder
     public function run()
     {
         Bride::create([
-            'wedding_id'        => 1,
-            'name'              => 'Darren Tan',
-            'child'             => 'Putri Pertama dari',
-            'name_father'       => 'Bpk Jhone Doe',
-            'name_mother'       => 'Ibu Isabela Putri',
-            'instagram'         => 'https://www.instagram.com/codelogydev/',
-            'bank_id'           => 2,
-            'acc_name'          => 'Darren Tan',
-            'acc_number'        => 923123456,
-            'gender'            => 'Female',
-            'photo'             => 'female.jpg',
-            'created_at'        => now(),
-            'updated_at'        => now()
+            'wedding_id' => 1,
+            'name' => 'Raka Grarizki',
+            'child' => 'Putra Ketiga dari',
+            'name_father' => 'Bpk Setiardjo',
+            'name_mother' => 'Ibu Endang Setiawati',
+            'instagram' => 'https://www.instagram.com/grarizki/',
+            'bank_id' => 2,
+            'acc_name' => 'Raka Grarizki',
+            'acc_number' => '102655243947',
+            'gender' => 'Male',
+            'photo' => '',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
 
         Bride::create([
-            'wedding_id'        => 1,
-            'name'              => 'Ijunwen',
-            'child'             => 'Putra Kedua dari',
-            'name_father'       => 'Bpk Bohemian Rapsody S.Pd',
-            'name_mother'       => 'Ibu Fricilia Ginting',
-            'instagram'         => 'https://www.instagram.com/danixsofyan/',
-            'bank_id'           => 1,
-            'acc_name'          => 'Ijunwen',
-            'acc_number'        => 456789234,
-            'gender'            => 'Male',
-            'photo'             => 'male.jpg',
-            'created_at'        => now(),
-            'updated_at'        => now()
+            'wedding_id' => 1,
+            'name' => 'Ciska Olivia',
+            'child' => 'Putri Kedua dari',
+            'name_father' => 'Bpk Lihon Ba\'i',
+            'name_mother' => 'Ibu Kartini',
+            'instagram' => 'https://www.instagram.com/ciskaolivia/',
+            'bank_id' => 1,
+            'acc_name' => 'Ciska Olivia',
+            'acc_number' => '0411542954',
+            'gender' => 'Female',
+            'photo' => '',
+            'created_at' => now(),
+            'updated_at' => now(),
         ]);
     }
 }

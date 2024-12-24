@@ -16,12 +16,10 @@ class GiftSeeder extends Seeder
     {
         Gift::create([
             'wedding_id'        => 1,
-            'name'              => 'Rumah Darren',
-            'address'           => 'Perumahan pondok indah
-            Jl. Pd. Indah No.12 12, RT.12/RW.6, Pesanggrahan, Kec. Pesanggrahan, 
-            Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12320
+            'name'              => 'Rumah Raka',
+            'address'           => 'Jl. Peninggaran Barat 4 No. 46, Jakarta Selatan, Jakarta, 12240
             ',
-            'maps'              => 'https://maps.app.goo.gl/FDTdgwmkumfq2fGM6',
+            'maps'              => 'https://maps.app.goo.gl/BRPeb5f1TBNWRmn17',
             'created_at'        => now(),
             'updated_at'        => now()
         ]);

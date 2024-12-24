@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Models\Wishes;
 use Illuminate\Database\Seeder;
 
 class WishesSeeder extends Seeder
@@ -14,12 +13,6 @@ class WishesSeeder extends Seeder
      */
     public function run()
     {
-        Wishes::create([
-            'wedding_id'            => 1,
-            'name'                  => 'Dani Sofyan',
-            'comment'               => 'Semoga menjadi keluarga bahagia',
-            'created_at'            => now(),
-            'updated_at'            => now()
-        ]);
+
     }
 }

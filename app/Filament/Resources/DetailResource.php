@@ -3,9 +3,7 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\DetailResource\Pages;
-use App\Filament\Resources\DetailResource\RelationManagers;
 use App\Models\Detail;
-use Filament\Forms;
 use Filament\Forms\Components\BelongsToSelect;
 use Filament\Forms\Components\Card;
 use Filament\Forms\Components\DateTimePicker;
@@ -16,8 +14,6 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class DetailResource extends Resource
 {
@@ -36,7 +32,7 @@ class DetailResource extends Resource
                     Select::make('type')->required()
                         ->options([
                             'Akad' => 'Akad',
-                            'Acara Pernihakan' => 'Acara Pernihakan',
+                            'Acara Pernikahan' => 'Acara Pernikahan',
                             'Resepsi' => 'Resepsi',
                             'Ngunduh Mantu' => 'Ngunduh Mantu',
                         ]),
@@ -44,7 +40,7 @@ class DetailResource extends Resource
                     TextInput::make('address')->required(),
                     TextInput::make('maps')->required(),
                     TextInput::make('calendar')->required(),
-                ])
+                ]),
             ]);
     }
 
