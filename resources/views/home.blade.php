@@ -17,7 +17,7 @@ foreach ($detail as $item) {
     <meta name="description" content="Undangan Online / Wedding Invitations" />
     <meta name="keywords" content="undangan online, wedding invitation, undangan digital" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="danixsofyan" />
+    <meta name="author" content="grarizki" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Wedding Invitations" />
@@ -62,88 +62,75 @@ foreach ($detail as $item) {
     <!-- intro
     ================================================== -->
     <section id="intro" class="s-intro">
-        @foreach ($wedding as $item)
-            <div class="s-intro__slider swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="s-intro__slide swiper-slide"
-                        style="background-image: url('{{ url('/storage/' . $item->hero1) }}');"></div>
-                    <div class="bg-opacity-50 s-intro__slide swiper-slide"
-                        style="background-image: url('{{ url('/storage/' . $item->hero2) }}');"></div>
-                    <div
-                        class="s-intro__slide swiper-slide bg-opacity-10"style="background-image: url('{{ url('/storage/' . $item->hero3) }}');">
-                    </div>
-                </div>
+        <div class="s-intro__slider">
+            <div class="swiper-wrapper">
+                <div class="s-intro__slide swiper-slide"></div>
             </div>
-
-            <div class="row s-intro__content">
-                <div class="column">
-
-                    <div class="text-pretitle">
-                        The Wedding
-                    </div>
-
-
-                    <h1 class="text-huge-title">
-                        {{ $item->name }}
-                    </h1>
-
-                    <div class="text-pretitle">
-                        Dear: <span style="text-color:white; font-weight: bold;">{{ $to }}</span>
-                        <br>We are inviting you to the wedding
-                        <br>
-                        <br>
-                        <button href="#hidden" class="btn--stroke2 btn--small smoothscroll"
-                            style="text-color:white !important;">
-                            Open Invitation
-                        </button>
-                        <!-- <a href="#hidden" class="btn btn--primary smoothscroll">Open Invitation</a> -->
-                    </div>
-        @endforeach
-
-        <div class="s-intro__content-bottom">
-
-            <div class="s-intro__content-bottom-block">
-                <button id="playButton"> Pause Audio </button>
-
-                <h5>Save the date</h5>
-
-                <div class="counter">
-                    <div class="counter__time">
-                        <span class="ss-days">000</span>
-                        <span>D</span>
-                    </div>
-                    <div class="counter__time">
-                        <span class="ss-hours">00</span>
-                        <span>H</span>
-                    </div>
-                    <div class="counter__time minutes">
-                        <span class="ss-minutes">00</span>
-                        <span>M</span>
-                    </div>
-                    <div class="counter__time">
-                        <span class="ss-seconds">00</span>
-                        <span>S</span>
-                    </div>
-                </div> <!-- end counter -->
-
-            </div> <!-- end s-intro-content__bottom-block -->
-
-            <div class="s-intro__content-bottom-block">
-
-
-
-            </div> <!-- end s-intro-content__bottom-block -->
-
         </div>
+        <div class="row s-intro__content">
+            <div class="column">
+                <div class="text-pretitle">
+                    The Wedding
+                </div>
 
-        </div>
-        </div> <!-- s-intro__content -->
+                <h1 class="text-huge-title">
+                    {{ $item->name }}
+                </h1>
 
-        <div class="s-intro__scroll">
-            <a href="#hidden" class="smoothscroll">
-                Scroll For More
-            </a>
-        </div> <!-- s-intro__scroll -->
+                <div class="text-pretitle">
+                    Dear: <span style="text-color:white; font-weight: bold;">{{ $to }}</span>
+                    <br>We are inviting you to the wedding
+                    <br>
+                    <br>
+                    <button href="#hidden" class="btn--stroke2 btn--small smoothscroll"
+                        style="text-color:white !important;">
+                        Open Invitation
+                    </button>
+                    <!-- <a href="#hidden" class="btn btn--primary smoothscroll">Open Invitation</a> -->
+                </div>
+
+                <div class="s-intro__content-bottom">
+
+                    <div class="s-intro__content-bottom-block">
+                        <button id="playButton"> Pause Audio </button>
+
+                        <h5>Save the date</h5>
+
+                        <div class="counter">
+                            <div class="counter__time">
+                                <span class="ss-days">000</span>
+                                <span>D</span>
+                            </div>
+                            <div class="counter__time">
+                                <span class="ss-hours">00</span>
+                                <span>H</span>
+                            </div>
+                            <div class="counter__time minutes">
+                                <span class="ss-minutes">00</span>
+                                <span>M</span>
+                            </div>
+                            <div class="counter__time">
+                                <span class="ss-seconds">00</span>
+                                <span>S</span>
+                            </div>
+                        </div> <!-- end counter -->
+
+                    </div> <!-- end s-intro-content__bottom-block -->
+
+                    <div class="s-intro__content-bottom-block">
+                    </div> <!-- end s-intro-content__bottom-block -->
+
+                </div>
+
+                <div class="s-intro__scroll">
+                    <a href="#hidden" class="smoothscroll">
+                        Scroll For More
+                    </a>
+                </div> <!-- s-intro__scroll -->
+            </div>
+        </div> <!-- end s-intro__content -->
+
+        <div class="s-intro__overlay"></div>
 
     </section> <!-- end s-intro -->
 
@@ -202,7 +189,6 @@ foreach ($detail as $item) {
 
                         <div class="row">
                             <div class="column">
-
                                 <div class="row">
                                     @foreach ($bride as $item)
                                         <div class="column lg-6 tab-12">
@@ -221,7 +207,7 @@ foreach ($detail as $item) {
                                             </a>
                                             <br>
                                             <img src="{{ url('/storage/') }}/{{ $item->photo }}"
-                                                style="height:500px; widht:auto;">
+                                                style="height:500px; width:auto;">
                                             <p class="desc-bride">
                                                 {{ $item->child }}
                                             </p>
@@ -410,7 +396,7 @@ foreach ($detail as $item) {
                                         <div class="column lg-6 tab-12">
                                             <h4>{{ $item->name }}</h4>
                                             <img src="{{ url('/storage/') }}/{{ $item->logo }}"
-                                                style="height:30px; widht:auto;">
+                                                style="height:30px; width:auto;">
                                             <p class="desc">
                                                 {{ $item->acc_number }}
                                                 <br>a/n {{ $item->acc_name }}
