@@ -166,12 +166,12 @@ foreach ($detail as $item) {
                         </li>
                         <li>
                             <a href="#tab-wishes">
-                                <span>Ucapan & Doa</span>
+                                <span>Tanda Kasih</span>
                             </a>
                         </li>
                         <li>
                             <a href="#tab-gift">
-                                <span>Tanda Kasih</span>
+                                <span>Ucapan & Doa</span>
                             </a>
                         </li>
                         <li>
@@ -192,8 +192,7 @@ foreach ($detail as $item) {
                                 <div class="row">
                                     @foreach ($bride as $item)
                                     <div class="column lg-6 tab-12">
-                                        <p class="name-bride">{{ $item->name }}</p>
-
+                                        <p class="name-bride">{{ $item->name }}</p> 
                                         <br>
                                         <img src="{{ url('/storage/') }}/{{ $item->photo }}"
                                             style="height:500px; width:auto;">
@@ -218,15 +217,7 @@ foreach ($detail as $item) {
 
                         <div class="row tab-content__item-header">
                             <div class="column">
-                                <h2>Simpan tanggal ini</h2>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="column">
-                                <p class="desc">
-                                    Kami sangat berharap anda dapat hadir di moment bahagia ini
-                                </p>
+                                <p class="title-event">Merupakan kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara(i) berkenan hadir dan memberikan doa restu pada hari istimewa kami</p class="title-event">
                             </div>
                         </div>
 
@@ -279,8 +270,8 @@ foreach ($detail as $item) {
 
                     <!-- 05 - tab gift -->
                     <div id="tab-gift" class="tab-content__item">
-                        <p>Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk mempelai
-                            dapat melalui: </p>
+                        <p>Kehadiran dan doa sudah sangat berarti bagi kami. Tanpa mengurangi rasa hormat, bagi yang ingin mengirimkan tanda kasih kepada mempelai
+                            dapat disampaikan melalui: </p>
 
                         <div class="row">
                             <div class="column">

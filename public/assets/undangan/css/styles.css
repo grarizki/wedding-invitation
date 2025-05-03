@@ -3785,8 +3785,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-details {
     --overlay-opacity: 1;
-    padding-top: var(--vspace-4);
-    padding-bottom: var(--vspace-3);
+    padding-top: var(--vspace-2);
+    padding-bottom: var(--vspace-2);
     background-color: var(--color-4);
     min-height: 100vh;
     width: 100%;
@@ -3929,7 +3929,6 @@ img.u-pull-left {
 
 .services-list h4::before {
     display: block;
-    content: counter(ctr, decimal-leading-zero) ".";
     font-family: var(--font-2);
     font-size: var(--text-sm);
     line-height: var(--vspace-0_75);
