@@ -62,6 +62,18 @@ foreach ($detail as $item) {
     <!-- intro
     ================================================== -->
     <section id="intro" class="s-intro">
+        <div class="bird-container bird-container--one">
+            <div class="bird bird--one"></div>
+        </div>
+        <div class="bird-container bird-container--two">
+            <div class="bird bird--two"></div>
+        </div>
+        <div class="bird-container bird-container--three">
+            <div class="bird bird--three"></div>
+        </div>
+        <div class="bird-container bird-container--four">
+            <div class="bird bird--four"></div>
+        </div>
         <div class="s-intro__slider">
             <div class="swiper-wrapper">
                 <div class="s-intro__slide swiper-slide"></div>
@@ -192,7 +204,7 @@ foreach ($detail as $item) {
                                 <div class="row">
                                     @foreach ($bride as $item)
                                     <div class="column lg-6 tab-12">
-                                        <p class="name-bride">{{ $item->name }}</p> 
+                                        <p class="name-bride">{{ $item->name }}</p>
                                         <br>
                                         <img src="{{ url('/storage/') }}/{{ $item->photo }}"
                                             style="height:500px; width:auto;">
