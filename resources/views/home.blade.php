@@ -1,8 +1,7 @@
 <?php
 foreach ($detail as $item) {
-    $finalDate = date_format(date_create($item->date), 'F j, Y H:i:s');
-}
-?>
+    $finalDate = date_format(date_create($item->date), "F j, Y H:i:s");
+} ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
@@ -41,7 +40,7 @@ foreach ($detail as $item) {
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="public\assets\undangan\images\icons\RC-favicon.png" />
+    <link rel="shortcut icon" href="public\assets\undangan\images\icons\favicon.ico" />
     @livewireStyles
 </head>
 
@@ -320,7 +319,7 @@ foreach ($detail as $item) {
                                     <img src="{{ url('/storage/') }}/{{ $item->logo }}"
                                         style="height:30px; width:auto;">
                                     <p class="desc">
-                                        {{ $item->acc_number }}
+                                        @if($loop->index == 1) 0{{ $item->acc_number }} @else {{ $item->acc_number }} @endif
                                         <br>a/n {{ $item->acc_name }}
                                     </p>
                                 </div>
